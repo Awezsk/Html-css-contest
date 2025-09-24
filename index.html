@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & CSS Contest</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>HTML & CSS Contest</h1>
+    <p>Finish all TODOs in 90 minutes</p>
+  </header>
+
+  <main class="container">
+
+    <!-- Q1 -->
+    <section>
+      <h2>Q1 — Product Pricing Table</h2>
+      <table class="pricing-table">
+        <caption>Cloud Storage Plans — Comparison</caption>
+        <thead>
+          <tr>
+            <th>Plan</th>
+            <th>Storage</th>
+            <th>Bandwidth</th>
+            <th>Support</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Starter</td>
+            <td>50 GB</td>
+            <td>500 GB/mo</td>
+            <td>Email</td>
+            <td>$5/mo</td>
+          </tr>
+          <tr>
+            <td>Pro</td>
+            <td>200 GB</td>
+            <td>2 TB/mo</td>
+            <td>Email + Chat</td>
+            <td>$12/mo</td>
+          </tr>
+          <tr>
+            <td>Business</td>
+            <td>1 TB</td>
+            <td>5 TB/mo</td>
+            <td>24×7 Phone</td>
+            <td>$29/mo</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="5">Annual billing saves up to 20% across all plans.<br>All prices in USD</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <!-- Q2 -->
+    <section>
+      <h2>Q2 — Course Registration Form</h2>
+      <form class="form-card">
+        <div class="form-group">
+          <input type="text" placeholder="Full Name" required>
+          <input type="email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <input type="tel" placeholder="Phone (10 digits)" pattern="[0-9]{10}">
+          <select>
+            <option>Choose…</option>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label><input type="radio" name="mode"> Online</label>
+          <label><input type="radio" name="mode"> Offline</label>
+        </div>
+        <textarea placeholder="Short Note"></textarea>
+        <div class="form-footer">
+          <label><input type="checkbox"> I agree to the terms & conditions</label>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Q3 -->
+    <section>
+      <h2>Q3 — Hero Banner</h2>
+      <div class="hero">
+        <div class="hero-text">
+          <h2>Build Beautiful UIs</h2>
+          <p>Master HTML & CSS with visual, real-world challenges.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Q4 -->
+    <section>
+      <h2>Q4 — Typography Card</h2>
+      <div class="card">
+        <p><strong>Good Typography = Good UX</strong></p>
+        <p>Thoughtful fonts, comfortable spacing, and consistent contrast make content easy to read. <a href="#">Learn more</a>.</p>
+        <blockquote>
+          “Content must be perceivable, operable, understandable, and robust.”  
+          <cite>— W3C, <a href="#">WCAG</a></cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- Q5 -->
+    <section>
+      <h2>Q5 — Horizontal Nav (no flex/grid)</h2>
+      <ul class="nav">
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Register</a></li>
+        <li><a href="#">Hero</a></li>
+        <li><a href="#">Card</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Animation</a></li>
+      </ul>
+    </section>
+
+    <!-- Q6 -->
+    <section>
+      <h2>Q6 — Badge & Back-to-Top</h2>
+      <div class="product-card">
+        <span class="badge">NEW</span>
+        <img src="https://images.unsplash.com/photo-1512499617640-c2f999098a63?w=800" alt="Headphones">
+        <p>Studio Headphones</p>
+        <h3>Studio Headphones</h3>
+        <p>Crisp highs, deep bass, and comfort for all-day focus.</p>
+      </div>
+      <a href="#top" class="back-to-top">⬆</a>
+    </section>
+
+    <!-- Q7 -->
+    <section>
+      <h2>Q7 — Gallery Hover Effects</h2>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500" alt="Mountains">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=500" alt="Road">
+        <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=500" alt="DJ">
+      </div>
+    </section>
+
+    <!-- Q8 -->
+    <section>
+      <h2>Q8 — CSS Animation</h2>
+      <div class="loader"></div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Submit your folder with all TODOs completed.</p>
+  </footer>
+</body>
+</html>
+
